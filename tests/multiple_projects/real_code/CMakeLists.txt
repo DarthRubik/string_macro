@@ -1,0 +1,7 @@
+project(MULTIPLE_PROJECTS_MAIN)
+
+add_executable(multiple_projects_main main.cpp)
+
+
+target_link_libraries(multiple_projects_main
+	multiple_projects_lib1 multiple_projects_lib2 multiple_projects_lib3)

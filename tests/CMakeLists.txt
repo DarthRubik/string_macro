@@ -1,2 +1,3 @@
 add_subdirectory(single_generated)
+add_subdirectory(multiple_projects)
 
