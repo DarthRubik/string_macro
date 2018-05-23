@@ -19,7 +19,7 @@ To use this suppose that you have a file that you want to generate (call it gene
 
     GENERATE_CODE(code)  //This needs to be in the global namespace at namespace scope
 
-Then we will use it in our main.cpp"
+Then we will use it in our main.cpp.
 
     #include "generated.hpp"  //This file was generated for us
 
